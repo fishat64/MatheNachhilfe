@@ -482,7 +482,7 @@ solutionsDoc.preamble.append(Command("date", NoEscape(r"\today")))
 solutionsDoc.packages.append(Package('xcolor'))
 solutionsDoc.append(NoEscape(r"\maketitle"))
 
-numberofquestions = 10 # Anzahl der Fragen in jedem Abschnitt
+numberofquestions = 20 # Anzahl der Fragen in jedem Abschnitt
 
 with problemsDoc.create(Section('Normalform zu Scheitelpunktsform')), solutionsDoc.create(Section('Normalform zu Scheitelpunktsform')):
     problemsDoc.append(f"Gegeben ist die Normalform. Bestimme die jeweilige Scheitelpunktsform.")
